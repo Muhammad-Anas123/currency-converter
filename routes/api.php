@@ -6,13 +6,13 @@ use App\Http\Controllers\CurrencyController;
 use App\Http\Controllers\ConversionController;
 
 // Test route to verify API is working
-Route::get('/test', function () {
-    return response()->json([
-        'message' => 'API is working!',
-        'laravel_version' => app()->version(),
-        'timestamp' => now()
-    ]);
-});
+// Route::get('/test', function () {
+//     return response()->json([
+//         'message' => 'API is working!',
+//         'laravel_version' => app()->version(),
+//         'timestamp' => now()
+//     ]);
+// });
 
 // Get authenticated user (default Laravel API route)
 Route::get('/user', function (Request $request) {
